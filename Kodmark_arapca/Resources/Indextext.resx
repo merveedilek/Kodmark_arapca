@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Anasayfa" xml:space="preserve">
+    <value>الصفحة الرئيسية</value>
+  </data>
+  <data name="BarkodOkuyucu" xml:space="preserve">
+    <value>قارئات الباركود</value>
+  </data>
+  <data name="BarkodYaziciAksesuar" xml:space="preserve">
+    <value>اكسسوارات طابعات الباركود</value>
+  </data>
+  <data name="BaskiliEtiket" xml:space="preserve">
+    <value>الملصقات المطبوعة</value>
+  </data>
+  <data name="BaskisizEtiket" xml:space="preserve">
+    <value>تسمية غير مطبوعة</value>
+  </data>
+  <data name="deger_Text" xml:space="preserve">
+    <value>أخلاقيات العمل: تضع اعلى القيم الأخلاقية بنظر الاعتبار في كافة مجالات عملها وقراراتها وعلاقاتها. 
+
+
+الموثوقية: نتعامل بصراحة وصدق ونزاهة وعدالة تجاه بعضنا البعض ومع شركائنا في العمل وعملائنا. اذ تعتبر الثقة والصدق من اهم قيمنا. 
+
+
+الشغف بالنجاح: يمنحنا شغفنا العالي بالنجاح شعوراً يجعلنا نعمل بدافع كبير ونناضل ولا نستسلم امام الصعوبات. 
+
+
+التركيز على الجودة: نقوم بإتمام اعمالنا في وقتها المحدد وبأعلى جودة وكفاءة. 
+
+المسؤولية: نفهم ما هو مطلوب منا بشكل صحيح ونتحمل المسؤولية فيما يخص عملنا, ونقترح الحلول ونقوم بتطبيقها.</value>
+  </data>
+  <data name="değerlerimiz" xml:space="preserve">
+    <value>قيمنا</value>
+  </data>
+  <data name="EndustriyelYazici" xml:space="preserve">
+    <value>الطابعات الصناعية</value>
+  </data>
+  <data name="floresan" xml:space="preserve">
+    <value>ملصقات الفلورسنت</value>
+  </data>
+  <data name="garanti" xml:space="preserve">
+    <value>الملصقات القابلة للكسر: تسمى بلمصقات الضمان. تنكسر عند محاولة فصلها من المنتج الذي تم لصقها عليه وذلك بفضل مادتها اللاصقة الخاصة.
+
+ملصقات</value>
+  </data>
+  <data name="garanti2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="garanti3" xml:space="preserve">
+    <value>:VOID</value>
+  </data>
+  <data name="garanti4" xml:space="preserve">
+    <value>تعرف ايضاً بلمصقات الأمان. توجد منها انواع تترك أثراً على سطح الملصق او على السطح الذي توجد فيه وذلك عند إزالتها.</value>
+  </data>
+  <data name="garantiveGuvenlik" xml:space="preserve">
+    <value>ملصقات الضمان والأمان</value>
+  </data>
+  <data name="Hakkimizda" xml:space="preserve">
+    <value>من نحن</value>
+  </data>
+  <data name="HakkimizdaYazi_P1" xml:space="preserve">
+    <value>تأسست شركتنا التي تعمل في مجال التعبئة والتغليف سنة 2012 من قبل فريق ذو خبرة خدم في القطاع, وهي تقدم خدماتها في مساحة إجمالية مسقفة تبلغ 1.000م2. 
+
+
+
+
+تضمن شركتنا إنجاز الأعمال التي على مسؤوليتها وفق القواعد وبجودة عالية وفي الوقت المحدد وذلك بفضل كادرها الديناميكي والمتخصص في مجاله. 
+
+
+
+وهي من الشركات الرائدة في إنتاج الملصقات وريبونات النقل الحرارية المستخدمة في كافة القطاعات وفي مقدمتها قطاع الاغذية والكيميائيات والبناء والغزل والنسيج والنقل اللوجستي, بالاضافة الى إنها مؤسسة تقدم بكل ثقة معدات الباركود وألات وضع الملصقات اوتوماتيكياً وقطع الغيار والمواد الاستهلاكية لعملائها.</value>
+  </data>
+  <data name="HakkimizdaYazi_P2" xml:space="preserve">
+    <value>منذ تأسيسها قدمت شركتنا خدماتها داخل البلاد, واعتباراً سنة 2017 بدأت التصدير الى 9 دول. فبالاضافة الى نموها المستمر في تركيا, تواصل شركتنا نجاحاتها في سبيل ان تصبح شركة تسعى دوماً الى التطور وتقترب خطوة بخطوة من هدفها في الوصول الى المزيد من الدول. 
+
+
+
+
+تقوم شركتنا بالإنتاج وفق معايير الجودة والحساسية تجاه البيئة وذلك تحت ضمان 9001: 2015, وهي تواصل تخصيص ميزانيات كبيرة لمشاريع البحوث-التطوير والإنتاج-التطوير وتقنيات الإنتاج وابحاث التطبيقات الخاصة كي تتمكن من تلبية الاحتياجات العديدة لعملائها وتقديم اجود الخدمات لعملائها بفضل كادرها المحترف.</value>
+  </data>
+  <data name="Kurumsal" xml:space="preserve">
+    <value>المؤسسية</value>
+  </data>
+  <data name="kuseEtiket" xml:space="preserve">
+    <value>الملصقات المطلية</value>
+  </data>
+  <data name="kuyumcu" xml:space="preserve">
+    <value>ملصقات الصاغة والبصريات</value>
+  </data>
+  <data name="m" xml:space="preserve">
+    <value>المهمة</value>
+  </data>
+  <data name="MasaustuYazici" xml:space="preserve">
+    <value>طابعات الباركود المكتبية</value>
+  </data>
+  <data name="MobilYazici" xml:space="preserve">
+    <value>طابعات الباركود المحمولة</value>
+  </data>
+  <data name="m_Text" xml:space="preserve">
+    <value>إعتماد التحسين المستمر مبدأ لها. 
+زيادة سعتها الإنتاجية.
+إعتماد نظام الإدارة المتجدد والايجابي كأساس لها.
+إيلاء الأهمية للجودة</value>
+  </data>
+  <data name="ppFastry" xml:space="preserve">
+    <value>PP تاير / فاستاير</value>
+  </data>
+  <data name="ppOpak" xml:space="preserve">
+    <value>ملصقات PP اوباك</value>
+  </data>
+  <data name="RibonCesitleri" xml:space="preserve">
+    <value>انواع الريبون</value>
+  </data>
+  <data name="silvermat" xml:space="preserve">
+    <value>ملصقات Silvermat/ملصقات الاثاث والمعدات</value>
+  </data>
+  <data name="termal" xml:space="preserve">
+    <value>الملصقات الحرارية</value>
+  </data>
+  <data name="urunler" xml:space="preserve">
+    <value>المنتجات</value>
+  </data>
+  <data name="v" xml:space="preserve">
+    <value>الرؤية</value>
+  </data>
+  <data name="vellum" xml:space="preserve">
+    <value>ملصقات Vellum</value>
+  </data>
+  <data name="VizyonMisyon" xml:space="preserve">
+    <value>رؤيتنا ورسالتنا وقيمنا</value>
+  </data>
+  <data name="v_text" xml:space="preserve">
+    <value>الجمع بين جودة المنتجات والخدمات التي يقدمها الكادر المتخصص, كي تتمكن من الوصول الى جماهير واسعة وتصبح الخيار الاول لعملائها.</value>
+  </data>
+  <data name="Yazıcılar" xml:space="preserve">
+    <value>الطابعات</value>
+  </data>
+  <data name="yemveCuval" xml:space="preserve">
+    <value>ملصقات الأعلاف والاكياس</value>
+  </data>
+  <data name="İletisim" xml:space="preserve">
+    <value>اتصالات</value>
+  </data>
+</root>

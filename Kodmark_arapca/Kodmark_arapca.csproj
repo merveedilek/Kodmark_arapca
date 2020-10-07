@@ -1,0 +1,307 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A47E92ED-A799-4B9C-B0ED-8061119AD884}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Kodmark_arapca</RootNamespace>
+    <AssemblyName>Kodmark_arapca</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44366</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.7\lib\net45\System.Web.Webpages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Deployment">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.7\lib\net45\System.Web.Webpages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.7\lib\net45\System.Web.Webpages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\css\bootstrap-theme.css" />
+    <Content Include="Content\css\bootstrap-theme.min.css" />
+    <Content Include="Content\css\bootstrap.css" />
+    <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\css\dropdown.css" />
+    <Content Include="Content\css\owl.carousel.css" />
+    <Content Include="Content\css\owl.theme.default.min.css" />
+    <Content Include="Content\css\style.css" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\images\demo\author-2.jpg" />
+    <Content Include="Content\images\demo\author-3.jpg" />
+    <Content Include="Content\images\demo\author-4.jpg" />
+    <Content Include="Content\images\demo\author-6.jpg" />
+    <Content Include="Content\images\demo\bg-main.jpg" />
+    <Content Include="Content\images\demo\office-bg.jpg" />
+    <Content Include="Content\images\demo\partners-1.png" />
+    <Content Include="Content\images\demo\partners-2.png" />
+    <Content Include="Content\images\demo\partners-3.png" />
+    <Content Include="Content\images\demo\partners-4.png" />
+    <Content Include="Content\images\demo\partners-5.png" />
+    <Content Include="Content\images\demo\partners-6.png" />
+    <Content Include="Content\images\demo\partners-7.png" />
+    <Content Include="Content\images\demo\portfolio-1.jpg" />
+    <Content Include="Content\images\demo\portfolio-2.jpg" />
+    <Content Include="Content\images\demo\portfolio-3.jpg" />
+    <Content Include="Content\images\demo\portfolio-4.jpg" />
+    <Content Include="Content\images\demo\portfolio-5.jpg" />
+    <Content Include="Content\images\logo.png" />
+    <Content Include="Content\js\bootstrap.js" />
+    <Content Include="Content\js\bootstrap.min.js" />
+    <Content Include="Content\js\cbpAnimatedHeader.js" />
+    <Content Include="Content\js\dropdown.js" />
+    <Content Include="Content\js\ie-emulation-modes-warning.js" />
+    <Content Include="Content\js\ie10-viewport-bug-workaround.js" />
+    <Content Include="Content\js\npm.js" />
+    <Content Include="Content\js\owl.carousel.min.js" />
+    <Content Include="Content\js\theme-scripts.js" />
+    <Content Include="Content\Kodmark\Anasayfa\accessories.jpg" />
+    <Content Include="Content\Kodmark\Anasayfa\ev4t.png" />
+    <Content Include="Content\Kodmark\Anasayfa\kozmetik.jpg" />
+    <Content Include="Content\Kodmark\Anasayfa\okuyucu1.jpg" />
+    <Content Include="Content\Kodmark\Anasayfa\qln.jpg" />
+    <Content Include="Content\Kodmark\Anasayfa\silvermat.jpg" />
+    <Content Include="Content\Kodmark\Anasayfa\toshiba.jpg" />
+    <Content Include="Content\Kodmark\Anasayfa\waxResin2.jpg" />
+    <Content Include="Content\Kodmark\barkodaksesuaları\apf.jpg" />
+    <Content Include="Content\Kodmark\barkodaksesuaları\apn.jpg" />
+    <Content Include="Content\Kodmark\barkodaksesuaları\godex.png" />
+    <Content Include="Content\Kodmark\barkodaksesuaları\towa.jpg" />
+    <Content Include="Content\Kodmark\barkodOxucu\ccd.jpg" />
+    <Content Include="Content\Kodmark\barkodOxucu\coklulazer.jpg" />
+    <Content Include="Content\Kodmark\barkodOxucu\endustriyel.jpg" />
+    <Content Include="Content\Kodmark\barkodOxucu\imager.png" />
+    <Content Include="Content\Kodmark\barkodOxucu\kablosuz.jpg" />
+    <Content Include="Content\Kodmark\barkodOxucu\karekod.jpg" />
+    <Content Include="Content\Kodmark\barkodOxucu\manyetik.jpg" />
+    <Content Include="Content\Kodmark\barkodOxucu\teklilazer.jpg" />
+    <Content Include="Content\Kodmark\baskılı\demir çeliki.jpg" />
+    <Content Include="Content\Kodmark\baskılı\gidaetiket.jpg" />
+    <Content Include="Content\Kodmark\baskılı\kimyaetiketi.jpg" />
+    <Content Include="Content\Kodmark\baskılı\koli.jpg" />
+    <Content Include="Content\Kodmark\baskılı\kozmetik.jpg" />
+    <Content Include="Content\Kodmark\baskılı\madeni yağ etiketi.jpg" />
+    <Content Include="Content\Kodmark\baskılı\madeni yağ etiketi2.jpg" />
+    <Content Include="Content\Kodmark\baskılı\madeniyağetiketi.jpg" />
+    <Content Include="Content\Kodmark\baskılı\tekstiletiketi.jpg" />
+    <Content Include="Content\Kodmark\baskılı\temizlikurun.jpg" />
+    <Content Include="Content\Kodmark\baskısız\fasty1.jpg" />
+    <Content Include="Content\Kodmark\baskısız\floresan1.jpg" />
+    <Content Include="Content\Kodmark\baskısız\kuse1.png" />
+    <Content Include="Content\Kodmark\baskısız\kuyumcu1.png" />
+    <Content Include="Content\Kodmark\baskısız\kırılgan1.jpg" />
+    <Content Include="Content\Kodmark\baskısız\pp opak etiket.jpg" />
+    <Content Include="Content\Kodmark\baskısız\silvermat.jpg" />
+    <Content Include="Content\Kodmark\baskısız\termal1.png" />
+    <Content Include="Content\Kodmark\baskısız\vellum2.png" />
+    <Content Include="Content\Kodmark\baskısız\yemvecuval.jpg" />
+    <Content Include="Content\Kodmark\endustriyel\endüstriyel.jpg" />
+    <Content Include="Content\Kodmark\endustriyel\toshiba.jpg" />
+    <Content Include="Content\Kodmark\logo\degerlerimiz.png" />
+    <Content Include="Content\Kodmark\logo\hotfoil1.png" />
+    <Content Include="Content\Kodmark\logo\icon.png" />
+    <Content Include="Content\Kodmark\logo\kodmark_logo1.png" />
+    <Content Include="Content\Kodmark\logo\misyon.png" />
+    <Content Include="Content\Kodmark\logo\vizyon.png" />
+    <Content Include="Content\Kodmark\Masaustu\argox.jpg" />
+    <Content Include="Content\Kodmark\Masaustu\ev4t.png" />
+    <Content Include="Content\Kodmark\Masaustu\fvt.jpg" />
+    <Content Include="Content\Kodmark\Masaustu\zebragc.png" />
+    <Content Include="Content\Kodmark\mobil\argoxmobil.jpg" />
+    <Content Include="Content\Kodmark\mobil\ep4.jpg" />
+    <Content Include="Content\Kodmark\mobil\imz.jpg" />
+    <Content Include="Content\Kodmark\mobil\qln.jpg" />
+    <Content Include="Content\Kodmark\ribon\hotfoil.jpg" />
+    <Content Include="Content\Kodmark\ribon\hotfoil3.jpg" />
+    <Content Include="Content\Kodmark\ribon\near edge.jpg" />
+    <Content Include="Content\Kodmark\ribon\nearEdge.png" />
+    <Content Include="Content\Kodmark\ribon\renkliribon2.jpg" />
+    <Content Include="Content\Kodmark\ribon\resin2.png" />
+    <Content Include="Content\Kodmark\ribon\wax ribon.jpg" />
+    <Content Include="Content\Kodmark\ribon\wax2.jpg" />
+    <Content Include="Content\Kodmark\ribon\waxResin2.jpg" />
+    <Content Include="Content\Kodmark\slides\1s.jpg" />
+    <Content Include="Content\Kodmark\slides\2s.JPG" />
+    <Content Include="Content\Kodmark\slides\3s.jpg" />
+    <Content Include="Content\Kodmark\slides\4s.JPG" />
+    <Content Include="Content\Kodmark\slides\5s.JPG" />
+    <Content Include="Content\Kodmark\slides\6s.jpg" />
+    <Content Include="Content\Kodmark\slides\7s.jpg" />
+    <Content Include="Content\Site.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.4.1.js" />
+    <Content Include="Scripts\jquery-3.4.1.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Indextext.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Indextext.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\web.config" />
+    <Content Include="Content\css\bootstrap-theme.css.map" />
+    <Content Include="Content\css\bootstrap.css.map" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="packages.config" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.4.1.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+    <Folder Include="Views\Shared\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Indextext.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Indextext.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>65003</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44366/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
